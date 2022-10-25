@@ -24,6 +24,7 @@
 .side-bar_main{
   height: calc(100vh -100px);
   padding: 0 20px;
+  overflow: scroll;
 }
 
 .main-box_top{
@@ -41,4 +42,41 @@
   height: 90px;
   background-color: #DDDDDD;
   padding: 20px 40px;
+}
+
+.name-chat-btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-btn {
+  height: 45px;
+  width: 130px;
+  border: solid 1px lightblue;
+  font-size: 10px;
+  padding: 14px;
+  text-align: center;
+  margin: auto 0;
+}
+
+.chat-btn a{
+  text-decoration: none;
+  color: deepskyblue;
+}
+
+.side-name a{
+  line-height: 100px;
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.chat-list{
+  height: 52px;
+  margin: 20px 0 40px 0;
+}
+
+.chat-list a{
+  color: white;
+  text-decoration: none;
 }
